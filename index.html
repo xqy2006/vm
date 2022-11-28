@@ -38,8 +38,8 @@
     <script src="./xterm/xterm.js"></script>
     <script src="./xterm/xterm-addon-fit.js"></script>
     <script defer type="module">
-        import { State } from "/tun/tailscale_tun.js";
-        import { autoConf } from "/tun/tailscale_tun_auto.js";
+        import { State } from "./tun/tailscale_tun.js";
+        import { autoConf } from "./tun/tailscale_tun_auto.js";
 
         let resolveLogin = null;
         let loginPromise = new Promise((f,r) => {
